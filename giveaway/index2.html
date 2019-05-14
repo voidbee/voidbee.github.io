@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head><title>THANK YOU</title>
+<style>
+
+body {
+    background-image: url("bg.jpg");
+}
+
+.bucks {
+font-family: "Courier New";
+font-weight: bold;
+text-align: center;
+color: white;
+position: absolute;
+top: 13%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 74px;
+text-shadow: 5px 5px 8px #000000;
+}
+
+
+p {
+  font-family: "Courier New";
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-shadow: 5px 5px 8px #000000;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0px;
+  right: 2%;
+  font-family: "Courier New";
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 8px #000000;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #ffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.ty {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.button {
+  position: absolute;
+  left: 48%;
+  top: 50%;
+}
+
+</style>
+</head>
+<body>
+  <font class="bucks">THANK YOU!</font>
+  <p class="wanna">We really appreciate it!</p>
+  <script>
+function myFunction() {
+var popup = document.getElementById("myPopup");
+popup.classList.toggle("show");
+}
+</script>
+</form>
+<img src="source/ty.png" width="20%" height="60%" class="ty" />
+<form action="index.html">
+  <input type="submit" value="Go back" class="button" /></form>
+</body>
+</html>

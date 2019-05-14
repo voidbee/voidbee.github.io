@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>third empire</title>
+
+<style>
+  p {
+    font-family: "Courier New";
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+      top: 200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+  }
+
+  #nazi {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+  body {
+    background: black;
+  }
+
+  .div1 {
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-style: dashed;
+    border-color: white;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%  {color: red;}
+  10% {color: orange;}
+  24% {color: yellow;}
+  38% {color: green;}
+  52% {color: #0099ff;}
+  66% {color: #000066;}
+  80% {color: purple;}
+  100% {color: red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%  {color: red;}
+    10% {color: orange;}
+    24% {color: yellow;}
+    38% {color: green;}
+    52% {color: #0099ff;}
+    66% {color: #000066;}
+    80% {color: purple;}
+    100% {color: red;}
+}
+
+  .legit {
+    font-family: "Courier New";
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .me {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  .melink {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+  }
+
+</style>
+</head>
+<body>
+
+<font class="legit">100% LEGIT</font>
+
+<p>click on hitler to bring the 3rd empire back</p>
+
+<a href="index2.html"><img src="content/hitler3.png" class="center"></a>
+
+<video autoplay muted loop id="nazi">
+  <source src="content/nazi.webm" type="video/webm">
+</video>
+
+<audio autoplay>
+  <source src="content/nazi.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<iframe src="content/nazi.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+<div class="div1"></div>
+<font class="me">this site was made by <a target="_blank" rel="noopener noreferrer" href="https://steamcommunity.com/id/lilyiguess/" class="melink">me</a></font>
+
+</body>
+</html>
